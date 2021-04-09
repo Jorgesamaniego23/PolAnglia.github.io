@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="top-head"></div>
+    <div class= logo-flag>
+        <div class=head-uk-flag style="margin: 3px; margin-top: 40px">
+            <a href="#ingles"><img src="static/ukflag.jpg" alt="English" width="90px" height="60px" style="display: inline-block;"></a>
+        </div>        
+        <div style="width: 10%;"></div>
+        <div><a href="#Home"><img src="static/Logo.PNG" alt="Polska" width="240px" height="150px"   style=justify-content: left></a></div>
+        <div style="width: 15%;"></div>        
+        <div class=head-pol-flag style="margin: 3px; margin-top: 40px;">
+            <a href="#polaco"><img src="static/polflag.jpg" alt="Polska" width="90px" height="60px"   style="display: inline-block;"></a>
+        </div>        
+    </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">HOME</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">PORADNIK - BAZA INFORMACJI 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="#">COVID-19</a>
+                        <a href="#">BREXIT</a>
+                        <a href="#">FINANSE</a>
+                        <a href="#">PRACA</a>
+                        <a href="#">SPRAWY MIESZKANIOWE</a>
+                        <a href="#">PRZEMOC DOMOWA</a>
+                        <a href="#">UZALEZNIENIA</a>
+                        <a href="#">RODZINA</a>
+                        <a href="#">ZDROWIE</a>
+                        <a href="#">PRAWO I SPRAWY KRYMINALNE</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">ARTICULY - PORADY 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="#">REJESTRACJA NATIONAL INSURANCE NUMBER</a>
+                        <a href="#">ODPOWIEDNIK POLSKIEGO ZAMELDOWANIA ELECTORAL RALL</a>
+                        <a href="#">NHS - KRAJOWA SLUZBA ZDROWIA ORAZ GP (PRZYCHODNIA LEKARSKA)</a>
+                        <a href="#">BRYTYJSKIE PRAWO JAZDY</a>
+                        <a href="#">PORADNIK DLA OSOB WYNAJMUJCYCH MIESZKANIE W ANGLI </a>
+                        <a href="#">UZALEZNIENIA - GDZIE SZUKAC POMOCY (UK)</a>
+                        <a href="#">NA CO ZWROCIC UWAGE PRZED PODJECIEM DECYZJI O TERAPII UZALEZNIEN</a>
+                        <a href="#">INTERWENCJE OPIEKI SPOLECZNEJ W RODZINACH - RIZYKP</a>
+                        <a href="#">POMOC DLA DZIECI O SPECJALNYCH POTRZEBACH - SPECJALISCI W SYSTEMIE</a>
+                        <a href="#">PRZEMOC DOMOWA I BRYTYJSKIE PRAWO RODZINNE</a>
+                        <a href="#">DEPRESJA-JAKJA ROZPOZNIAC U BLISKIEJ OSOBY</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">SPECJALISCI 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="#">PRAWNICY (ANG. SOLICITORS)</a>
+                        <a href="#">PSYCHOTERAPEUCI/TERAPEUCI</a>          
+                        </div>
+                    </div>
+                    <a href="#home">MEDIA-VIDEO</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">O NAS 
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="#">PARTNERZY PORTALU</a>
+                        <a href="#">LEGAL</a>          
+                        </div>
+                    </div> 
+                    <a href="#news" class="push-right" >KONTAKT</a>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><b>&#9776;</b></a>
+                </div>              
+    <div style="height: 1px; width: 100%;background-color: darkgrey;"></div>
+    
+    <h3>Dropdown Menu inside a Navigation Bar</h3>
+    <p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+    <script>
+        function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } 
+                else {
+                    x.className = "topnav";
+                }
+        }
+</script>
+
+</body>
+</html>
+
+
