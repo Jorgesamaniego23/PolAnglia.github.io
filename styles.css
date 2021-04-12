@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f9fafa;
@@ -6,20 +5,19 @@ body {
   }
  
 .logo-flag{
-  margin: 10px;
-  display:flex;
-  justify-content: space-around;
-  background-color: white;
-}
-
+    margin: 10px;
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+  }
+  
 .shadow-efect {
-  width: 110px;
-  height: 70px;
-  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    width: 110px;
+    height: 70px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
-
-/*From de responsive menu BEGGINING*/
+/*********From de responsive menu BEGGINING***********/
 .topnav {
   overflow: hidden;
   background-color: rgb(197, 18, 18);
@@ -39,7 +37,7 @@ body {
   display: none;
 }
 
-/*rESPONSIVE MENU END*/
+/***************rESPONSIVE MENU END************/
 
 .active {
   background-color: #1d34b6da;
@@ -49,9 +47,7 @@ body {
   .top-head{
     height: 30px;
     width: 100%;
-    background-color: #102496da;
-    ;
-  
+    background-color: #102496da;  
 }
 
 .head-navigator{
@@ -60,6 +56,7 @@ body {
     justify-content:space-around;
     margin-left: auto;
 }
+
 
 .inner-nav{
     margin: 10px;
@@ -75,7 +72,7 @@ body {
     float: left;
     overflow: hidden;
   }
-  
+
   .dropdown .dropbtn {
     font-size: 15px;
     border: none;
@@ -100,7 +97,7 @@ body {
     z-index: 1;
   }
  
-  .dropdown-content a {
+.dropdown-content a {
     font-size: 12px;
     float: none;
     color: black;
@@ -118,6 +115,40 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+
+
+  /* BARRA SEPARADORA */
+
+  .barra {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-color: rgba(121, 121, 121, 0.651);
+    border-width: 10px;
+    max-width: 20px;;
+  }
+
+
+
+  /************************* CAROUSEL *******************************/
+
+  .al-medio{
+    display: flex;
+    justify-content: center;
+}
+
+ .carousel-size{    
+    width: 55%;
+    height:35%;
+}
+
+/*.carousel-inner{
+    background-color: rgb(78, 76, 76);
+} */
+
+  /************************* CAROUSEL END **************************/
+
 
   @media screen and (max-width: 1100px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {

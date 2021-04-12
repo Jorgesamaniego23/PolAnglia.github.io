@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="styles.css">
+    <head>
+        <title>PolAnglia - WebSite</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
 
-</head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- PROBLEM
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->          
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles-slide.css">
+
+            <!-- /*******************DESDE AQUI ***************************/ -->        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>               
+
+        <!-- /* HASTA AQUI*/ -->
+
+        <style>
+            /* Make the image fully responsive */
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        
+    </head>
 <body>
     <div class="top-head"></div>
+    <!-- ***************** HEAD MENU **************************** -->
     <div class= logo-flag>
         <div class="head-uk-flag shadow-efect" style="margin: 3px; margin-top: 40px">
             <a href="#ingles"><img src="static/flag-uk.jpg" alt="English" width="110px" height="70px"></a>
@@ -78,10 +104,60 @@
                     <a href="#news" class="push-right" >KONTAKT</a>
                     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><b>&#9776;</b></a>
                 </div>              
-    <div style="height: 1px; width: 100%;background-color: darkgrey;"></div>
+<!-- ***************** HEAD MENU END **************************** -->                
+
+    <!-- <div style="height: 1px; width: 100%;background-color: darkgrey;"></div> -->
+
+    <hr class="barra">
+
+
+
+
+ <!-- *************************** DISPLAY SLIDE********************************** -->
+ <div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+            <img src="static/yellow.jpg" style="width:100%">
+        <div class="text">Yellow Wall With a Girl</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+            <img src="static/playa.jpg" style="width:100%">
+        <div class="text">Beautiful Beach with Sunshine</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+            <img src="static/metro.jpg" style="width:100%">
+        <div class="text">Lots of People Running for a Train</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+            <img src="static/college.jpg" style="width:100%">
+        <div class="text">Boys Going Back to School</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+ <!-- *************************** FIN DISPLAT SLIDE ********************************** -->
+ 
     
     <h3>Dropdown Menu inside a Navigation Bar</h3>
     <p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+
 
     <script>
         function myFunction() {
@@ -93,6 +169,36 @@
                     x.className = "topnav";
                 }
         }
+    </script>
+
+    
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    }
 </script>
 
 </body>
