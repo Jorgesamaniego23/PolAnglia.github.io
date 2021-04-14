@@ -3,195 +3,307 @@
     <head>
         <title>PolAnglia - WebSite</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <!-- PROBLEM
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->          
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">         
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="styles-slide.css">
 
-            <!-- /*******************DESDE AQUI ***************************/ -->        
         
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->               
+        <!-- LA GALLERY -->
+         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        
+        
 
-        <!-- /* HASTA AQUI*/ -->
-        
     </head>
-<body>
-    <div class="top-head"></div>
-    <!-- ***************** HEAD MENU **************************** -->
-    <div class= logo-flag>
-        <div class="head-uk-flag shadow-efect" style="margin: 3px; margin-top: 40px">
-            <a href="#ingles"><img src="static/flag-uk.jpg" alt="English" width="110px" height="70px"></a>
-        </div>        
-        <div style="width: 10%;"></div>
-        <div><a href="#Home"><img src="static/Logo.PNG" alt="Polska" width="240px" height="150px"></a></div>
-        <div style="width: 15%;"></div>        
-        <div class="head-pol-flag shadow-efect" style="margin: 3px; margin-top: 40px;">
-            <a href="#polaco"><img src="static/flag-pol.jpg" alt="Polska" width="110px" height="70px"></a>
-        </div>        
+    <body>
+        <div class="top-head"></div>
+
+        <!-- ***************** HEAD MENU **************************** -->
+        <div class= logo-flag>
+            <div class="header-flag shadow-efect" style="margin: 3px; margin-top: 40px">
+                <a href="#ingles"><img src="static/flag-uk.jpg" alt="English" ></a>
+            </div>        
+            <div style="width: 10%;"></div>
+            <div class="header-logo">
+                <a href="#Home"><img src="static/Logo.PNG" alt="Polska"></a>
+            </div>
+            <div style="width: 15%;"></div>        
+            <div class="header-flag shadow-efect" style="margin: 3px; margin-top: 40px;">
+                <a href="#polaco"><img src="static/flag-pol.jpg" alt="Polska"></a>
+            </div>        
+        </div>
+                    <div class="topnav" id="myTopnav">
+                        <a href="#home" class="active">HOME</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">PORADNIK - BAZA INFORMACJI 
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="#">COVID-19</a>
+                            <a href="#">BREXIT</a>
+                            <a href="#">FINANSE</a>
+                            <a href="#">PRACA</a>
+                            <a href="#">SPRAWY MIESZKANIOWE</a>
+                            <a href="#">PRZEMOC DOMOWA</a>
+                            <a href="#">UZALEZNIENIA</a>
+                            <a href="#">RODZINA</a>
+                            <a href="#">ZDROWIE</a>
+                            <a href="#">PRAWO I SPRAWY KRYMINALNE</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">ARTICULY - PORADY 
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="#">REJESTRACJA NATIONAL INSURANCE NUMBER</a>
+                            <a href="#">ODPOWIEDNIK POLSKIEGO ZAMELDOWANIA ELECTORAL RALL</a>
+                            <a href="#">NHS - KRAJOWA SLUZBA ZDROWIA ORAZ GP (PRZYCHODNIA LEKARSKA)</a>
+                            <a href="#">BRYTYJSKIE PRAWO JAZDY</a>
+                            <a href="#">PORADNIK DLA OSOB WYNAJMUJCYCH MIESZKANIE W ANGLI </a>
+                            <a href="#">UZALEZNIENIA - GDZIE SZUKAC POMOCY (UK)</a>
+                            <a href="#">NA CO ZWROCIC UWAGE PRZED PODJECIEM DECYZJI O TERAPII UZALEZNIEN</a>
+                            <a href="#">INTERWENCJE OPIEKI SPOLECZNEJ W RODZINACH - RIZYKP</a>
+                            <a href="#">POMOC DLA DZIECI O SPECJALNYCH POTRZEBACH - SPECJALISCI W SYSTEMIE</a>
+                            <a href="#">PRZEMOC DOMOWA I BRYTYJSKIE PRAWO RODZINNE</a>
+                            <a href="#">DEPRESJA-JAKJA ROZPOZNIAC U BLISKIEJ OSOBY</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">SPECJALISCI 
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="#">PRAWNICY (ANG. SOLICITORS)</a>
+                            <a href="#">PSYCHOTERAPEUCI/TERAPEUCI</a>          
+                            </div>
+                        </div>
+                        <a href="#home">MEDIA-VIDEO</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">O NAS 
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="#">PARTNERZY PORTALU</a>
+                            <a href="#">LEGAL</a>          
+                            </div>
+                        </div> 
+                        <a href="#news" class="push-right" >KONTAKT</a>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><b>&#9776;</b></a>
+                    </div>              
+    <!-- ***************** HEAD MENU END **************************** -->                
+
+        <hr class="barra">
+
+    <!-- *************************** DISPLAY SLIDE********************************** -->
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+                <img src="static/yellow.jpg"  style="width:100%" >
+            <div class="text">Yellow Wall With a Girl</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+                <img src="static/playa.jpg" style="width:100%" >
+            <div class="text">Beautiful Beach with Sunshine</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+                <img src="static/metro.jpg" style="width:100%" >
+            <div class="text">Lots of People Running for a Train</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+                <img src="static/college.jpg" style="width:100%" >
+            <div class="text">Boys Going Back to School</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-                <div class="topnav" id="myTopnav">
-                    <a href="#home" class="active">HOME</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">PORADNIK - BAZA INFORMACJI 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                        <a href="#">COVID-19</a>
-                        <a href="#">BREXIT</a>
-                        <a href="#">FINANSE</a>
-                        <a href="#">PRACA</a>
-                        <a href="#">SPRAWY MIESZKANIOWE</a>
-                        <a href="#">PRZEMOC DOMOWA</a>
-                        <a href="#">UZALEZNIENIA</a>
-                        <a href="#">RODZINA</a>
-                        <a href="#">ZDROWIE</a>
-                        <a href="#">PRAWO I SPRAWY KRYMINALNE</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">ARTICULY - PORADY 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                        <a href="#">REJESTRACJA NATIONAL INSURANCE NUMBER</a>
-                        <a href="#">ODPOWIEDNIK POLSKIEGO ZAMELDOWANIA ELECTORAL RALL</a>
-                        <a href="#">NHS - KRAJOWA SLUZBA ZDROWIA ORAZ GP (PRZYCHODNIA LEKARSKA)</a>
-                        <a href="#">BRYTYJSKIE PRAWO JAZDY</a>
-                        <a href="#">PORADNIK DLA OSOB WYNAJMUJCYCH MIESZKANIE W ANGLI </a>
-                        <a href="#">UZALEZNIENIA - GDZIE SZUKAC POMOCY (UK)</a>
-                        <a href="#">NA CO ZWROCIC UWAGE PRZED PODJECIEM DECYZJI O TERAPII UZALEZNIEN</a>
-                        <a href="#">INTERWENCJE OPIEKI SPOLECZNEJ W RODZINACH - RIZYKP</a>
-                        <a href="#">POMOC DLA DZIECI O SPECJALNYCH POTRZEBACH - SPECJALISCI W SYSTEMIE</a>
-                        <a href="#">PRZEMOC DOMOWA I BRYTYJSKIE PRAWO RODZINNE</a>
-                        <a href="#">DEPRESJA-JAKJA ROZPOZNIAC U BLISKIEJ OSOBY</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">SPECJALISCI 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                        <a href="#">PRAWNICY (ANG. SOLICITORS)</a>
-                        <a href="#">PSYCHOTERAPEUCI/TERAPEUCI</a>          
-                        </div>
-                    </div>
-                    <a href="#home">MEDIA-VIDEO</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">O NAS 
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                        <a href="#">PARTNERZY PORTALU</a>
-                        <a href="#">LEGAL</a>          
-                        </div>
-                    </div> 
-                    <a href="#news" class="push-right" >KONTAKT</a>
-                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()"><b>&#9776;</b></a>
-                </div>              
-<!-- ***************** HEAD MENU END **************************** -->                
-
-    <!-- <div style="height: 1px; width: 100%;background-color: darkgrey;"></div> -->
-
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <!-- *************************** FIN DISPLAY SLIDE ********************************** -->
     <hr class="barra">
-
-
-
-
- <!-- *************************** DISPLAY SLIDE********************************** -->
- <div class="slideshow-container">
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
-            <img src="static/yellow.jpg" style="width:100%">
-        <div class="text">Yellow Wall With a Girl</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-            <img src="static/playa.jpg" style="width:100%">
-        <div class="text">Beautiful Beach with Sunshine</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-            <img src="static/metro.jpg" style="width:100%">
-        <div class="text">Lots of People Running for a Train</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-            <img src="static/college.jpg" style="width:100%">
-        <div class="text">Boys Going Back to School</div>
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-    <span class="dot" onclick="currentSlide(4)"></span>
-</div>
-
- <!-- *************************** FIN DISPLAT SLIDE ********************************** -->
- 
     
-    <h3>Dropdown Menu inside a Navigation Bar</h3>
-    <p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+    <h2>News..</h2>            
+        <p>Click on the images to Read The Latest News...</p>
+        <br>
+    
+    <!-- ******************** GALLERY  ********************************** -->
+    <div class="gallery-container">        
+        <!-- ******************* FIRST ROW ********************** -->
+         <!-- <div> -->
+            <!-- <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/mundo.jpg" target="_blank">
+                    <img src="static/mundo.jpg" alt="Lights">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div> -->
+            <!-- <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/park.jpg" target="_blank">
+                    <img src="static/park.jpg" alt="Nature">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div>
+            <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/gato.jpg" target="_blank">
+                    <img src="static/gato.jpg" alt="Fjords">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
 
+        <!-- ******************* SECOND ROW ********************** -->
 
+        <!-- <div> -->
+            <!-- <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/pills.jpg" target="_blank">
+                    <img src="static/pills.jpg" alt="Lights">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div>
+            <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/ena.jpg" target="_blank">
+                    <img src="static/ena.jpg" alt="Nature">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div>
+            <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/nurse.jpg" target="_blank">
+                    <img src="static/nurse.jpg" alt="Fjords">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
 
-    <script>
-        function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } 
-                else {
-                    x.className = "topnav";
+        <!-- *************************** THIRD  ROW ************************ -->
+        <!-- <div> -->
+            <!-- <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/apps.jpg" target="_blank">
+                    <img src="static/apps.jpg" alt="Lights">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+           <!--  </div>
+            <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/coding.jpg" target="_blank">
+                    <img src="static/coding.jpg" alt="Nature">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div>
+            <div class="col-md-4"> -->
+                <div class="my-thumbnail">
+                    <a href="static/amigos.jpg" target="_blank">
+                    <img src="static/amigos.jpg" alt="Fjords">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    </a>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- *************************** END OF THIRD ROW ************************ -->
+
+    </div>
+    <hr class="barra">
+    <!-- ******************** FOOTER AREA ********************************** -->
+    <div class="da-footer">
+        <div>
+            <p>Poles in Need C.I.C</p>
+            <p>POSK Centre, 238-246 King Street, Hammersmith, London, W6 0RF</p>
+            <p>Companies House 11053964</p>
+        </div>
+        <img src="static/qr-code.PNG" alt="QR Information">
+    </div>
+
+    <!-- ******************** SCRIPTS AREA ********************************** -->
+    <!-- ******************** MENU SCRIPTS ********************************** -->
+        <script>
+            function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } 
+                    else {
+                        x.className = "topnav";
+                    }
+            }
+        </script>
+        
+        <!-- ******************** SLIDE SCRIPTS  ********************************** -->
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
                 }
-        }
-    </script>
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
 
-    
-<script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+        <!-- ******************** GALLERY SCRIPTS ********************************** -->
 
-    function plusSlides(n) {
-    showSlides(slideIndex += n);
-    }
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
 
-    function currentSlide(n) {
-    showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    }
-</script>
-
-</body>
+    </body>
 </html>
