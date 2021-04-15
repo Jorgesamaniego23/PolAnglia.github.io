@@ -230,4 +230,6 @@ body {
       width: 100%;
       text-align: left;
     }
+    .da-footer img{ width: 25%; height: 25%;}
+    .da-footer p{font-size: 9px;}
   }
